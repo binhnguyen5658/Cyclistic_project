@@ -2,7 +2,7 @@
 
 WITH
 member as
-(https://github.com/binhnguyen5658/Cyclistic_project/tree/main/data%20and%20code
+(
 	SELECT 
 		YEAR(started_at) as Year,
 		MONTH(started_at) as Month,
