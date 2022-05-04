@@ -5,5 +5,8 @@ In 2016, Cyclistic launched a successful bike-share offering. Since then, the pr
 
 Cyclistic have 3 pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members
 
-## Scenario
+## About this project
 The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, they want to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, marketing team will design a new marketing strategy to convert casual riders into annual members
+
+## Purpose of this project
+Answer the question: How do annual members and casual riders use Cyclistic bikes differently?
