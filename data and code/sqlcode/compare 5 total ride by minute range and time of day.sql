@@ -1,6 +1,7 @@
 -- below 1 hour
 --- use minute by time of day
 WITH
+-- create 4 minute range of use minute below 1 hour
 minute_range AS
 (
 	SELECT
@@ -18,6 +19,7 @@ minute_range AS
 	WHERE
 		datediff(minute, started_at, ended_at) <= 60
 ),
+-- total member ride of 4 minute range
 member AS
 (
 	SELECT 
@@ -32,6 +34,7 @@ member AS
 		started_at,
 		minute_range
 ),
+-- total casual rider ride of 4 minute range
 casual AS
 (
 	SELECT 
@@ -45,8 +48,8 @@ casual AS
 	GROUP BY
 		started_at,
 		minute_range
-)
-
+) 
+-- join total ride of member and casual of 4 minute range
 SELECT
 	member.started_at,
 	member.minute_range,
