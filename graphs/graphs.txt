@@ -1,1 +1,0 @@
-all graphs that are used for the report are created by Power BI tool
