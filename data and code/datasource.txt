@@ -1,0 +1,6 @@
+# data source
+
+Data link
+https://divvy-tripdata.s3.amazonaws.com/index.html
+
+use 12 trip files of April 2021 to March 2022 
