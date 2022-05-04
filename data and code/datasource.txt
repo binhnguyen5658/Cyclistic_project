@@ -3,4 +3,16 @@ DATA SOURCE
 Data link
 https://divvy-tripdata.s3.amazonaws.com/index.html
 
-use 12 trip files of April 2021 to March 2022 
+use 12 CSV files of trip from April 2021 to March 2022:
+202104-divvy-tripdata 
+202105-divvy-tripdata
+202106-divvy-tripdata
+202107-divvy-tripdata
+202108-divvy-tripdata
+202109-divvy-tripdata
+202110-divvy-tripdata
+202111-divvy-tripdata
+202112-divvy-tripdata
+202201-divvy-tripdata
+202202-divvy-tripdata
+202203-divvy-tripdata
